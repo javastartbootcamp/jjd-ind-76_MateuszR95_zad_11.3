@@ -1,4 +1,4 @@
-package pl.javastart.task;
+package pl.javastart.task.model;
 
 public class HardDrive extends Component {
 

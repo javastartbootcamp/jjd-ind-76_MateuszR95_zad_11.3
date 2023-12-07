@@ -1,10 +1,10 @@
-package pl.javastart.task;
+package pl.javastart.task.model;
 
 public class Computer {
 
-    protected Processor processor;
-    protected HardDrive hardDrive;
-    protected Memory memory;
+    public Processor processor;
+    public HardDrive hardDrive;
+    public Memory memory;
 
     public Computer(Processor processor, HardDrive hardDrive, Memory memory) {
         setProcessor(processor);
