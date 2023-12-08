@@ -66,8 +66,6 @@ public abstract class OverclockableComponent extends Component implements Overcl
         return "OverclockableComponent{" +
                 "frequency=" + frequency +
                 ", currentTemperature=" + currentTemperature +
-                ", maxSafeTemperature=" + maxSafeTemperature +
-                ", temperatureIncreasePer100Mhz=" + temperatureIncreasePer100Mhz +
-                '}';
+                ", maxSafeTemperature=" + maxSafeTemperature + '}';
     }
 }

@@ -10,17 +10,10 @@ public class Processor extends OverclockableComponent {
     }
 
     @Override
-    public void overClock(double additionalFrequency) {
-        super.overClock(additionalFrequency);
-    }
-
-    @Override
     public String toString() {
         return "Processor{" +
                 "frequency=" + frequency +
                 ", currentTemperature=" + currentTemperature +
-                ", maxSafeTemperature=" + maxSafeTemperature +
-                ", temperatureIncreasePer100Mhz=" + temperatureIncreasePer100Mhz +
-                '}';
+                ", maxSafeTemperature=" + maxSafeTemperature  + '}';
     }
 }

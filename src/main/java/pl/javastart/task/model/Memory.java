@@ -11,11 +11,6 @@ public class Memory extends OverclockableComponent {
         this.temperatureIncreasePer100Mhz = 15;
     }
 
-    @Override
-    public void overClock(double additionalFrequency) {
-        super.overClock(additionalFrequency);
-    }
-
     public int getMemory() {
         return memory;
     }
@@ -33,8 +28,6 @@ public class Memory extends OverclockableComponent {
                 "memory=" + memory +
                 ", frequency=" + frequency +
                 ", currentTemperature=" + currentTemperature +
-                ", maxSafeTemperature=" + maxSafeTemperature +
-                ", temperatureIncreasePer100Mhz=" + temperatureIncreasePer100Mhz +
-                '}';
+                ", maxSafeTemperature=" + maxSafeTemperature  + '}';
     }
 }
